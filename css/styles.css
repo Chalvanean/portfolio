@@ -164,7 +164,8 @@ padding:3rem;
 	padding: 5rem 4rem;
 	padding-bottom: 1rem;
 	margin: 0 auto;
-	background-color: #E7FCFF;
+	/*background-color: #E7FCFF;*/
+background-color: green;
 }
 .features-heading-headline{
 color:var(--dark);
@@ -322,8 +323,7 @@ h5{
 }
 .price{
 	font-size: 2.5rem;
-	/*color: #01C853;*/
-	color: yellow;
+	color: #01C853;
 	font-weight: bold;
 	font-family: var(--secondary-font);
 }
