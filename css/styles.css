@@ -322,7 +322,8 @@ h5{
 }
 .price{
 	font-size: 2.5rem;
-	color: #01C853;
+	/*color: #01C853;*/
+	color: yellow;
 	font-weight: bold;
 	font-family: var(--secondary-font);
 }
