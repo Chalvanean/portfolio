@@ -300,7 +300,7 @@ form{
 #COURSES{
 	background:url(../images/sakurabackground5.jpeg) no-repeat;
 	background-opacity:0.5;
-	background-size: cover;
+	background-size: 100% auto;
 	background-position: center center;
 	background-attachment: fixed;
 	padding: 4rem 0;
@@ -507,13 +507,6 @@ border:2px solid white;
 	/*COURSE SECTION*/
 
 	#COURSES{
-	background:url(../images/sakurabackground5.jpeg) no-repeat;
-	background-opacity:0.5;
-	background-size: cover;
-	background-position: center center;
-	background-attachment: fixed;
-	padding: 2.8rem 5%;
-	}
 	.course-box-container{
 		display: flex;
 		flex-direction: column;
