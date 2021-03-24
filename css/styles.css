@@ -10,7 +10,6 @@
 
 --shadow: 0 1px 5px rgba(104,104,104,0.8);
 
-
 --primary-font: 'Montserrat', sans-serif;
 --secondary-font:'Playfair Display', serif;
 
@@ -164,8 +163,7 @@ padding:3rem;
 	padding: 5rem 4rem;
 	padding-bottom: 1rem;
 	margin: 0 auto;
-	/*background-color: #E7FCFF;*/
-background-color: green;
+	background-color: #E7FCFF;
 }
 .features-heading-headline{
 color:var(--dark);
@@ -241,6 +239,7 @@ margin-right: 6rem;
 }.partnership img{
 	margin:2rem;
 	width: 5rem;
+	filter: drop-shadow(0 0 0.75rem #3333);
 }
 
 
@@ -299,9 +298,10 @@ form{
 /*COURSE SECTION*/
 
 #COURSES{
+
 	background:url(../images/sakurabackground5.jpeg) no-repeat;
 	background-opacity:0.5;
-	background-size: 100vh auto !important;
+	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
 	padding: 4rem 0;
@@ -508,6 +508,13 @@ border:2px solid white;
 	/*COURSE SECTION*/
 
 	#COURSES{
+	background:url(../images/sakurabackground5.jpeg) no-repeat;
+	background-opacity:0.5;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	padding: 2.8rem 5%;
+	}
 	.course-box-container{
 		display: flex;
 		flex-direction: column;
@@ -596,14 +603,12 @@ border:2px solid white;
 }
 
 @media (max-width: 500px){/************************* S M A L L   S I Z E *******************************/
-		#COURSES{
-	background:url(../images/sakurabackground5.jpeg) no-repeat;
-	background-opacity:0.5;
-	background-size: cover;
-	background-position: center center;
-	background-attachment: fixed;
-	padding: 2.8rem 5%;
+	#COURSES{
+		background:none !important;
+		background-color: var(--dark) !important;
+
 	}
+
 		.brand-title{
 		font-size: 1.2rem;
 	}
@@ -712,7 +717,7 @@ border:2px solid white;
 	background:url(../images/sakurabackground5.jpeg) no-repeat;
 	background-opacity:0.5;
 	background-size: cover;
-	background-position: center center;
+	background-position: top bottom;
 	background-attachment: fixed;
 	padding: 2.8rem 5%;
 	}
